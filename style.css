@@ -1,0 +1,51 @@
+body {
+  font-family:Righteous;
+  font-size: 2.5em;
+  font-weight: 400;
+  color: white;
+  background-color:#21354F;
+}
+h1 {
+  font-weight: 300;
+  font-size: 4.0rem;
+  line-height: 1.2;
+  letter-spacing: -.1rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding: 50px 0px 20px 0px;
+  text-align:center;
+}
+.button {
+  height:50px;
+  border:solid;
+  border-radius:3px;
+  background-color:#21354F;
+  color:#fff;
+  outline:none;
+  text-align:center;
+  padding: 8px 18px 8px 18px;
+  margin:0px;
+  opacity:1;
+  cursor:pointer;
+}
+.button:hover {
+  background-color:#92A8D1;
+  color:#21354F;
+}
+.hidden {
+  display: none;
+}
+.metric {
+  display: none;
+}
+.showFahrenheit .imperial {
+  display: none;
+}
+.showFahrenheit .metric {
+  display: inline;
+}
+#toggleTemperatureUnit {
+  font-family:Righteous;
+  font-size:0.50em;
+  margin-top: 1.7em;
+}
